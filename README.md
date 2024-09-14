@@ -1,4 +1,4 @@
-# **Startup Sphere Tech Departments**
+# **Startup Sphere Tech Department**
 
 ## Task Description:
 
