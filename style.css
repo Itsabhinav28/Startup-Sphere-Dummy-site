@@ -398,7 +398,7 @@ nav h3 {
     /* background-color: #EFEAE3; */
 }
 
-#footer {
+/* #footer {
     position: fixed;
     height: 105vh;
     width: 100%;
@@ -406,9 +406,9 @@ nav h3 {
     color: #fff;
     z-index: 9;
     bottom: 0;
-    display: flex;
+    display: flex; */
     /* align-items: flex-end; */
-    justify-content: flex-end;
+/*     justify-content: flex-end;
     flex-direction: column;
     padding: 1vw 3vw;
 }
@@ -428,7 +428,72 @@ nav h3 {
     border-top: 1px solid #dadada;
     height: 10vh;
     width: 100%;
+}  */
+
+#footer {
+    position: fixed;
+    height: 105vh;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    z-index: 9;
+    bottom: 0;
+    display: flex;
+    
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1vw 3vw;
 }
+
+/* #footer h1 {
+    font-size: 12vw;
+}
+
+#footer-div {
+    height: 12vh;
+    width: 100%;
+    background-color: red;
+} */
+/* improverd footer css part  */
+#footer-bottom {
+    font-weight: 50;
+    border-top: 1px solid #dadada;
+    height: 10vh;
+    width: 100%;
+}
+
+#footer-div h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#social-links {
+    margin: 20px 0;
+}
+
+#social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+#social-links img {
+    filter: invert(100%); /* Make the icons white for dark backgrounds */
+    transition: transform 0.3s ease;
+}
+
+#social-links img:hover {
+    transform: scale(1.2); /* Zoom effect on hover */
+}
+
+#footer-bottom {
+    margin-top: 20px;
+}
+
+#footer-bottom p {
+    font-size: 14px;
+    color: #ccc;
+}
+
 
 #full-scr {
     height: 100vh;
